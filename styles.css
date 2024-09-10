@@ -16,6 +16,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    border: 1px solid #555555;
 }
 
 .nav-list{
@@ -35,4 +36,43 @@ body{
 .nav-list a:hover{
     color: white;
     font-size: 18px;
+}
+
+.main{
+    width: 100%;
+    background-color: black;
+    height: calc(100vh - 85px);
+    background-image: url("images/example-coding.png");
+    display: flex;
+    align-items: center;
+    padding-left: 8%;
+}
+
+.main h1{
+    color: antiquewhite;
+    font-size: 50px;
+}
+
+.main p{
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(96, 106, 222);
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+.main a{
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+.action{
+    cursor: pointer;
+    background-color: white;
+    border: 0;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
 }
