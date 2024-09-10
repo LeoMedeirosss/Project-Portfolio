@@ -17,12 +17,11 @@ header{
 }
 
 .nav{
-    background-color: #353535;
+    background-color: #1d1d1d;
     height: 85px;
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    border: 1px solid #555555;
 }
 
 .nav-list{
@@ -179,4 +178,36 @@ header{
 .action2:hover{
     transform: scale(1.15);
     color: #353535;
+}
+
+footer{
+    width: 100%;
+    background-color: #1d1d1d;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(160, 156, 156);
+    transition: 0.8s;
+}
+
+footer a:hover{
+    font-size: larger;
+    color: wheat;
+}
+
+footer h4{
+    margin-left: 15px;
+    color: rgb(160, 156, 156);
+    font-style:oblique;
+}
+
+footer p{
+    margin-left: 15px;
+    color: rgb(160, 156, 156);
 }
