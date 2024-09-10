@@ -34,13 +34,13 @@ header{
 
 .nav-list a{
     text-decoration: none;
-    color: gray;
+    color: rgb(160, 156, 156);
     padding: 15px;
     transition: 0.4s;
 }
 
 .nav-list a:hover{
-    color: white;
+    color: wheat;
     font-size: 18px;
 }
 
@@ -55,7 +55,7 @@ header{
 }
 
 .main h1{
-    color: antiquewhite;
+    color: rgb(251, 231, 206);
     font-size: 50px;
 }
 
@@ -101,13 +101,13 @@ header{
 }
 
 .about h2{
-    color: rgb(240, 235, 235);
+    color: wheat;
     font-style: italic;
     font-size: 30px;
 }
 
 .about p{
-    color: whitesmoke;
+    color: wheat;
     font-size: 20px;
 }
 
@@ -119,4 +119,64 @@ header{
 .about img{
     max-width: 475px;
     border-radius: 10px;
+}
+
+.projects{
+    background-color: #353535;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.projects h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: wheat;
+}
+
+.projects p{
+    margin-bottom: 35px;
+    font-style: italic;
+    color: wheat;
+}
+
+.projects-list{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects img{
+    width: 20%;
+    margin-left: 1%;
+    margin-right: 1%;
+    opacity: 0.75;
+    transition: 0.8s;
+}
+
+.projects img:hover{
+    opacity: 1;
+}
+
+.action2{
+    background-color: whitesmoke;
+    color: black;
+    border: 0;
+    padding: 12px 28px;
+    margin-top: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.8s;
+}
+
+.action2:hover{
+    transform: scale(1.15);
+    color: #353535;
 }
